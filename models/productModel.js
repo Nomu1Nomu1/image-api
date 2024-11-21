@@ -6,8 +6,8 @@ const { DataTypes } = Sequelize;
 const Product = db.define(
     "product", 
     {
-        image_id: {
-            type: DataTypes.INTEGER,
+        image: {
+            type: DataTypes.BLOB,
             allowNull: false
         },
         name: {
