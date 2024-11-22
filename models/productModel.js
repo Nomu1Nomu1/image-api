@@ -7,7 +7,7 @@ const Product = db.define(
     "product", 
     {
         image: {
-            type: DataTypes.BLOB,
+            type: DataTypes.STRING,
             allowNull: false
         },
         name: {
